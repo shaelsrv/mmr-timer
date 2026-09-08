@@ -1,0 +1,11 @@
+{
+ "kind": "timer",
+ "engine": "https://github.com/shaelsrv/ModelMeetsReality",
+ "engine_commit": "56a33c1",
+ "tier": "designed",
+ "one_line": "says when a phase arrives",
+ "premise_shape": "<Phase> arrives in <window>, signalled by <observable>.",
+ "falsifier": "the phase does not arrive in the stated window",
+ "predict_frame": "Name the phase, the window, and the observable that marks its arrival.",
+ "assess_frame": "Did the phase arrive inside the window?"
+}
